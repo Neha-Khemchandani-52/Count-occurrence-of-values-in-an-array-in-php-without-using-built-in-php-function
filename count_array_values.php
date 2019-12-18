@@ -1,3 +1,4 @@
+<?php  ## Openening PHP tag
 /***
 ** Description : Count occurrence of each value present in a given input array without using php built-in function
 ** Added By : Neha Khemchandani
@@ -18,4 +19,7 @@ foreach ($inpuArray as $value) {
     }
 }
 
+echo "<pre>";
 print_r($output_array);
+
+?> ## Closing php tag
